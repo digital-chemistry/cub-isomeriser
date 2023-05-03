@@ -1,0 +1,41 @@
+# ignore compiled binaries and executables
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ignore temporary files
+*.bak
+*.swp
+*~
+
+# ignore log files
+*.log
+
+# ignore IDE configuration files
+.idea/
+.vscode/
+
+# ignore output folder
+out_keggin/
+
+# ignore virtual environments
+venv/
+env/
+myenv/
+
+# ignore dependencies
+node_modules/
+bower_components/
